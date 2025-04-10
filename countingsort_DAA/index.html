@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Sort Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Counting Sort Algorithm</h1>
+    
+    <div class="container">
+        <div class="input-section">
+            <label for="inputArray">Enter numbers separated by spaces:</label>
+            <input type="text" id="inputArray" placeholder="e.g. 4 3 12 1 5 5 3 9">
+            <button onclick="performSort()">Sort</button>
+        </div>
+        
+        <div class="result-section">
+            <h2>Result:</h2>
+            <div id="result">Sorted array will appear here</div>
+            <div id="error" class="error"></div>
+            
+            <h3>Sorted Array:</h3>
+            <div id="sortedArrayDisplay" class="array-container"></div>
+        </div>
+    </div>
+    
+    <footer>
+        Implementation of Counting Sort Algorithm
+    </footer>
+   
+</body>
+<script src="count.js"></script>
+</html>
